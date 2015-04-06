@@ -74,7 +74,7 @@ class GraphCutsAdapter {
       typename TImageType::IndexType index;
       typename TImageType::SizeType size;
 
-      for(unsigned int dim = 0; dim < TImageType::ImageDimension; i++)
+      for(unsigned int dim = 0; dim < TImageType::ImageDimension; dim++)
       {
         for(auto region : regions)
           {
